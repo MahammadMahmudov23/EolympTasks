@@ -1,0 +1,12 @@
+#include <iostream>
+
+using namespace std;
+int t1,t2,t3;
+int m;
+
+int main()
+{
+    scanf("%d",&t2);
+    m=t2*(t2+1)+1;
+    cout<<m;
+}
