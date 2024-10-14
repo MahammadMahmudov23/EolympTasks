@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main()
+{
+    long a;
+long sum = 0;
+    while(scanf("%ld",&a)!=-1)
+       {
+sum+=a;
+}
+         printf("%ld",sum);
+}
