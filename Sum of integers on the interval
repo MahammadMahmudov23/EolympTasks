@@ -1,0 +1,8 @@
+#include<stdio.h>
+long long x,y,res,z;
+int main()
+{    scanf("%lld %lld", &x,&y);
+     z=y-x+1;
+     res=(x+y)*z/2;
+     printf("%lld",res);
+     return 0;}
