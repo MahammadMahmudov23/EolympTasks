@@ -1,0 +1,9 @@
+#include<iostream>
+using namespace std;
+long long n,m,res;
+int main()
+{
+    cin>>n>>m;
+    res=(n-1)*m*3;
+    cout<<res;
+}
